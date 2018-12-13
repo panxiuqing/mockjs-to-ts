@@ -1,0 +1,1 @@
+# mockjs-to-ts
