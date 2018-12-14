@@ -22,7 +22,7 @@ export function printToFile(name: string, mockjsObj: object) {
     );
 }
 
-function convert(mockjsObj: object) {
+export function convert(mockjsObj: object) {
     let parsed = parse(mockjsObj);
     let result = parsed.map(dispatch);
     let content = generate(result);

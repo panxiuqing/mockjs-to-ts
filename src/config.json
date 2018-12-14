@@ -1,0 +1,11 @@
+{
+    "mockServer": "rap2",
+    "endpoint": "http://test.yi-you.org:9998",
+    "rootDir": "apis",
+    "repositories": [
+        {
+            "id": 19,
+            "sync": true
+        }
+    ]
+}

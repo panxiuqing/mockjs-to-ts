@@ -6,8 +6,9 @@
         "experimentalDecorators": true,
         "lib": ["es2015"],
         "declaration": true,
-        "declarationDir": "./types"
+        "declarationDir": "./types",
+        "resolveJsonModule": true
     },
-    "include": ["src/**/*.ts"],
+    "include": ["src/**/*.ts", "src/**/*.json"],
     "exclude": ["node_modules"]
 }
